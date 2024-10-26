@@ -1,0 +1,972 @@
+Service: NAME
+
+
+
+Service: :1.0
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: :1.1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: :1.10
+
+
+
+Service: :1.100
+
+
+
+Service: :1.101
+
+
+
+Service: :1.102
+
+
+
+Service: :1.103
+
+
+
+Service: :1.104
+
+
+
+Service: :1.105
+
+
+
+Service: :1.106
+
+
+
+Service: :1.107
+
+
+
+Service: :1.109
+
+
+
+Service: :1.11
+
+
+
+Service: :1.110
+
+
+
+Service: :1.111
+NAME                                TYPE      SIGNATURE RESULT/VALUE                             FLAGS
+org.freedesktop.DBus.Introspectable interface -         -                                        -
+.Introspect                         method    -         s                                        -
+org.freedesktop.DBus.Peer           interface -         -                                        -
+.GetMachineId                       method    -         s                                        -
+.Ping                               method    -         -                                        -
+org.freedesktop.DBus.Properties     interface -         -                                        -
+.Get                                method    ss        v                                        -
+.GetAll                             method    s         a{sv}                                    -
+.Set                                method    ssv       -                                        -
+.PropertiesChanged                  signal    sa{sv}as  -                                        -
+org.freedesktop.fwupd               interface -         -                                        -
+.Activate                           method    s         -                                        -
+.ClearResults                       method    s         -                                        -
+.GetApprovedFirmware                method    -         as                                       -
+.GetBlockedFirmware                 method    -         as                                       -
+.GetDetails                         method    h         aa{sv}                                   -
+.GetDevices                         method    -         aa{sv}                                   -
+.GetDowngrades                      method    s         aa{sv}                                   -
+.GetHistory                         method    -         aa{sv}                                   -
+.GetHostSecurityAttrs               method    -         aa{sv}                                   -
+.GetHostSecurityEvents              method    u         aa{sv}                                   -
+.GetPlugins                         method    -         aa{sv}                                   -
+.GetReleases                        method    s         aa{sv}                                   -
+.GetRemotes                         method    -         aa{sv}                                   -
+.GetReportMetadata                  method    -         a{ss}                                    -
+.GetResults                         method    s         a{sv}                                    -
+.GetUpgrades                        method    s         aa{sv}                                   -
+.Install                            method    sha{sv}   -                                        -
+.ModifyConfig                       method    ss        -                                        -
+.ModifyDevice                       method    sss       -                                        -
+.ModifyRemote                       method    sss       -                                        -
+.Quit                               method    -         -                                        -
+.SelfSign                           method    sa{sv}    s                                        -
+.SetApprovedFirmware                method    as        -                                        -
+.SetBlockedFirmware                 method    as        -                                        -
+.SetFeatureFlags                    method    t         -                                        -
+.SetHints                           method    a{ss}     -                                        -
+.Unlock                             method    s         -                                        -
+.UpdateMetadata                     method    shh       -                                        -
+.Verify                             method    s         -                                        -
+.VerifyUpdate                       method    s         -                                        -
+.DaemonVersion                      property  s         "1.7.9"                                  emits-change
+.HostBkc                            property  s         ""                                       emits-change
+.HostMachineId                      property  s         "f94518e2cbe41f023c2e8f1c33db8133d9ec46… emits-change
+.HostProduct                        property  s         "Victus by HP Gaming Laptop 15-fa0xxx"   emits-change
+.HostSecurityId                     property  s         "HSI:0! (v1.7.9)"                        emits-change
+.Interactive                        property  b         false                                    emits-change
+.Percentage                         property  u         -                                        emits-change
+.Status                             property  u         1                                        emits-change
+.Tainted                            property  b         false                                    emits-change
+.Changed                            signal    -         -                                        -
+.DeviceAdded                        signal    a{sv}     -                                        -
+.DeviceChanged                      signal    a{sv}     -                                        -
+.DeviceRemoved                      signal    a{sv}     -                                        -
+.DeviceRequest                      signal    a{sv}     -                                        -
+
+
+
+Service: :1.116
+
+
+
+Service: :1.117
+
+
+
+Service: :1.118
+
+
+
+Service: :1.119
+
+
+
+Service: :1.12
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: :1.127
+
+
+
+Service: :1.128
+
+
+
+Service: :1.13
+NAME                                TYPE      SIGNATURE RESULT/VALUE  FLAGS
+org.freedesktop.Avahi.Server        interface -         -             -
+.AddressResolverNew                 method    iisu      o             -
+.DomainBrowserNew                   method    iisiu     o             -
+.EntryGroupNew                      method    -         o             -
+.GetAPIVersion                      method    -         u             -
+.GetAlternativeHostName             method    s         s             -
+.GetAlternativeServiceName          method    s         s             -
+.GetDomainName                      method    -         s             -
+.GetHostName                        method    -         s             -
+.GetHostNameFqdn                    method    -         s             -
+.GetLocalServiceCookie              method    -         u             -
+.GetNetworkInterfaceIndexByName     method    s         i             -
+.GetNetworkInterfaceNameByIndex     method    i         s             -
+.GetState                           method    -         i             -
+.GetVersionString                   method    -         s             -
+.HostNameResolverNew                method    iisiu     o             -
+.IsNSSSupportAvailable              method    -         b             -
+.RecordBrowserNew                   method    iisqqu    o             -
+.ResolveAddress                     method    iisu      iiissu        -
+.ResolveHostName                    method    iisiu     iisisu        -
+.ResolveService                     method    iisssiu   iissssisqaayu -
+.ServiceBrowserNew                  method    iissu     o             -
+.ServiceResolverNew                 method    iisssiu   o             -
+.ServiceTypeBrowserNew              method    iisu      o             -
+.SetHostName                        method    s         -             -
+.StateChanged                       signal    is        -             -
+org.freedesktop.Avahi.Server2       interface -         -             -
+.AddressResolverPrepare             method    iisu      o             -
+.DomainBrowserPrepare               method    iisiu     o             -
+.EntryGroupNew                      method    -         o             -
+.GetAPIVersion                      method    -         u             -
+.GetAlternativeHostName             method    s         s             -
+.GetAlternativeServiceName          method    s         s             -
+.GetDomainName                      method    -         s             -
+.GetHostName                        method    -         s             -
+.GetHostNameFqdn                    method    -         s             -
+.GetLocalServiceCookie              method    -         u             -
+.GetNetworkInterfaceIndexByName     method    s         i             -
+.GetNetworkInterfaceNameByIndex     method    i         s             -
+.GetState                           method    -         i             -
+.GetVersionString                   method    -         s             -
+.HostNameResolverPrepare            method    iisiu     o             -
+.IsNSSSupportAvailable              method    -         b             -
+.RecordBrowserPrepare               method    iisqqu    o             -
+.ResolveAddress                     method    iisu      iiissu        -
+.ResolveHostName                    method    iisiu     iisisu        -
+.ResolveService                     method    iisssiu   iissssisqaayu -
+.ServiceBrowserPrepare              method    iissu     o             -
+.ServiceResolverPrepare             method    iisssiu   o             -
+.ServiceTypeBrowserPrepare          method    iisu      o             -
+.SetHostName                        method    s         -             -
+.StateChanged                       signal    is        -             -
+org.freedesktop.DBus.Introspectable interface -         -             -
+.Introspect                         method    -         s             -
+
+
+
+Service: :1.130
+
+
+
+Service: :1.131
+
+
+
+Service: :1.133
+
+
+
+Service: :1.15
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: :1.16
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.161
+
+
+
+Service: :1.2
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: :1.20
+
+
+
+Service: :1.21
+
+
+
+Service: :1.23
+
+
+
+Service: :1.24
+
+
+
+Service: :1.26
+
+
+
+Service: :1.27
+
+
+
+Service: :1.28
+
+
+
+Service: :1.29
+
+
+
+Service: :1.3
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.30
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.36
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.4
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.49
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.5
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.50
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.6
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.61
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.69
+
+
+
+Service: :1.7
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.72
+
+
+
+Service: :1.73
+
+
+
+Service: :1.74
+
+
+
+Service: :1.75
+
+
+
+Service: :1.77
+
+
+
+Service: :1.79
+
+
+
+Service: :1.8
+NAME                                TYPE      SIGNATURE  RESULT/VALUE  FLAGS
+org.freedesktop.DBus.Introspectable interface -          -             -
+.Introspect                         method    -          s             -
+org.freedesktop.DBus.ObjectManager  interface -          -             -
+.GetManagedObjects                  method    -          a{oa{sa{sv}}} -
+.InterfacesAdded                    signal    oa{sa{sv}} -             -
+.InterfacesRemoved                  signal    oas        -             -
+
+
+
+Service: :1.80
+
+
+
+Service: :1.81
+
+
+
+Service: :1.89
+
+
+
+Service: :1.9
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: :1.90
+
+
+
+Service: :1.91
+
+
+
+Service: :1.92
+
+
+
+Service: :1.93
+
+
+
+Service: :1.96
+
+
+
+Service: :1.97
+
+
+
+Service: :1.98
+
+
+
+Service: :1.99
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: com.canonical.UbuntuAdvantage
+NAME                                TYPE      SIGNATURE  RESULT/VALUE  FLAGS
+org.freedesktop.DBus.Introspectable interface -          -             -
+.Introspect                         method    -          s             -
+org.freedesktop.DBus.ObjectManager  interface -          -             -
+.GetManagedObjects                  method    -          a{oa{sa{sv}}} -
+.InterfacesAdded                    signal    oa{sa{sv}} -             -
+.InterfacesRemoved                  signal    oas        -             -
+org.freedesktop.DBus.Peer           interface -          -             -
+.GetMachineId                       method    -          s             -
+.Ping                               method    -          -             -
+org.freedesktop.DBus.Properties     interface -          -             -
+.Get                                method    ss         v             -
+.GetAll                             method    s          a{sv}         -
+.Set                                method    ssv        -             -
+.PropertiesChanged                  signal    sa{sv}as   -             -
+
+
+
+Service: com.hp.hplip
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+com.hp.hplip                        interface -         -            -
+.installPlugin                      method    s         b            -
+.shutdown                           method    s         b            -
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+
+
+
+Service: com.redhat.NewPrinterNotification
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: com.redhat.PrinterDriversInstaller
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: com.ubuntu.LanguageSelector
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+com.ubuntu.LanguageSelector         interface -         -            -
+.SetSystemDefaultFormatsEnv         method    s         b            -
+.SetSystemDefaultLanguageEnv        method    s         b            -
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+
+
+
+Service: com.ubuntu.SoftwareProperties
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+com.ubuntu.SoftwareProperties       interface -         -            -
+.AddCdromSource                     method    -         -            -
+.AddKey                             method    s         b            -
+.AddKeyFromData                     method    s         b            -
+.AddSourceFromLine                  method    s         -            -
+.ChangeMainDownloadServer           method    v         -            -
+.DisableChildSource                 method    s         -            -
+.DisableComponent                   method    s         -            -
+.DisableSourceCodeSources           method    -         -            -
+.EnableChildSource                  method    s         -            -
+.EnableComponent                    method    s         -            -
+.EnableSourceCodeSources            method    -         -            -
+.Reload                             method    -         -            -
+.RemoveKey                          method    s         b            -
+.RemoveSource                       method    s         -            -
+.ReplaceSourceEntry                 method    ss        b            -
+.Revert                             method    -         -            -
+.SetPopconPariticipation            method    b         -            -
+.SetReleaseUpgradesPolicy           method    i         -            -
+.SetUpdateAutomationLevel           method    i         -            -
+.SetUpdateInterval                  method    i         -            -
+.ToggleSourceUse                    method    s         -            -
+.UpdateKeys                         method    -         b            -
+.AuthFailed                         signal    -         -            -
+.CdromScanFailed                    signal    -         -            -
+.ConfigModified                     signal    -         -            -
+.KeysModified                       signal    -         -            -
+.SourcesListModified                signal    -         -            -
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+
+
+
+Service: com.ubuntu.USBCreator
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: com.ubuntu.WhoopsiePreferences
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: fi.w1.wpa_supplicant1
+
+
+
+Service: io.netplan.Netplan
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: net.hadess.PowerProfiles
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: net.hadess.SwitcherooControl
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: net.reactivated.Fprint
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.bluez
+NAME                                TYPE      SIGNATURE  RESULT/VALUE  FLAGS
+org.freedesktop.DBus.Introspectable interface -          -             -
+.Introspect                         method    -          s             -
+org.freedesktop.DBus.ObjectManager  interface -          -             -
+.GetManagedObjects                  method    -          a{oa{sa{sv}}} -
+.InterfacesAdded                    signal    oa{sa{sv}} -             -
+.InterfacesRemoved                  signal    oas        -             -
+
+
+
+Service: org.debian.apt
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.Accounts
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.Avahi
+NAME                                TYPE      SIGNATURE RESULT/VALUE  FLAGS
+org.freedesktop.Avahi.Server        interface -         -             -
+.AddressResolverNew                 method    iisu      o             -
+.DomainBrowserNew                   method    iisiu     o             -
+.EntryGroupNew                      method    -         o             -
+.GetAPIVersion                      method    -         u             -
+.GetAlternativeHostName             method    s         s             -
+.GetAlternativeServiceName          method    s         s             -
+.GetDomainName                      method    -         s             -
+.GetHostName                        method    -         s             -
+.GetHostNameFqdn                    method    -         s             -
+.GetLocalServiceCookie              method    -         u             -
+.GetNetworkInterfaceIndexByName     method    s         i             -
+.GetNetworkInterfaceNameByIndex     method    i         s             -
+.GetState                           method    -         i             -
+.GetVersionString                   method    -         s             -
+.HostNameResolverNew                method    iisiu     o             -
+.IsNSSSupportAvailable              method    -         b             -
+.RecordBrowserNew                   method    iisqqu    o             -
+.ResolveAddress                     method    iisu      iiissu        -
+.ResolveHostName                    method    iisiu     iisisu        -
+.ResolveService                     method    iisssiu   iissssisqaayu -
+.ServiceBrowserNew                  method    iissu     o             -
+.ServiceResolverNew                 method    iisssiu   o             -
+.ServiceTypeBrowserNew              method    iisu      o             -
+.SetHostName                        method    s         -             -
+.StateChanged                       signal    is        -             -
+org.freedesktop.Avahi.Server2       interface -         -             -
+.AddressResolverPrepare             method    iisu      o             -
+.DomainBrowserPrepare               method    iisiu     o             -
+.EntryGroupNew                      method    -         o             -
+.GetAPIVersion                      method    -         u             -
+.GetAlternativeHostName             method    s         s             -
+.GetAlternativeServiceName          method    s         s             -
+.GetDomainName                      method    -         s             -
+.GetHostName                        method    -         s             -
+.GetHostNameFqdn                    method    -         s             -
+.GetLocalServiceCookie              method    -         u             -
+.GetNetworkInterfaceIndexByName     method    s         i             -
+.GetNetworkInterfaceNameByIndex     method    i         s             -
+.GetState                           method    -         i             -
+.GetVersionString                   method    -         s             -
+.HostNameResolverPrepare            method    iisiu     o             -
+.IsNSSSupportAvailable              method    -         b             -
+.RecordBrowserPrepare               method    iisqqu    o             -
+.ResolveAddress                     method    iisu      iiissu        -
+.ResolveHostName                    method    iisiu     iisisu        -
+.ResolveService                     method    iisssiu   iissssisqaayu -
+.ServiceBrowserPrepare              method    iissu     o             -
+.ServiceResolverPrepare             method    iisssiu   o             -
+.ServiceTypeBrowserPrepare          method    iisu      o             -
+.SetHostName                        method    s         -             -
+.StateChanged                       signal    is        -             -
+org.freedesktop.DBus.Introspectable interface -         -             -
+.Introspect                         method    -         s             -
+
+
+
+Service: org.freedesktop.ColorManager
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.DBus
+
+
+
+Service: org.freedesktop.GeoClue2
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.ModemManager1
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.NetworkManager
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.PackageKit
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.PolicyKit1
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.RealtimeKit1
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.UDisks2
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.UPower
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.bolt
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.freedesktop.fwupd
+NAME                                TYPE      SIGNATURE RESULT/VALUE                             FLAGS
+org.freedesktop.DBus.Introspectable interface -         -                                        -
+.Introspect                         method    -         s                                        -
+org.freedesktop.DBus.Peer           interface -         -                                        -
+.GetMachineId                       method    -         s                                        -
+.Ping                               method    -         -                                        -
+org.freedesktop.DBus.Properties     interface -         -                                        -
+.Get                                method    ss        v                                        -
+.GetAll                             method    s         a{sv}                                    -
+.Set                                method    ssv       -                                        -
+.PropertiesChanged                  signal    sa{sv}as  -                                        -
+org.freedesktop.fwupd               interface -         -                                        -
+.Activate                           method    s         -                                        -
+.ClearResults                       method    s         -                                        -
+.GetApprovedFirmware                method    -         as                                       -
+.GetBlockedFirmware                 method    -         as                                       -
+.GetDetails                         method    h         aa{sv}                                   -
+.GetDevices                         method    -         aa{sv}                                   -
+.GetDowngrades                      method    s         aa{sv}                                   -
+.GetHistory                         method    -         aa{sv}                                   -
+.GetHostSecurityAttrs               method    -         aa{sv}                                   -
+.GetHostSecurityEvents              method    u         aa{sv}                                   -
+.GetPlugins                         method    -         aa{sv}                                   -
+.GetReleases                        method    s         aa{sv}                                   -
+.GetRemotes                         method    -         aa{sv}                                   -
+.GetReportMetadata                  method    -         a{ss}                                    -
+.GetResults                         method    s         a{sv}                                    -
+.GetUpgrades                        method    s         aa{sv}                                   -
+.Install                            method    sha{sv}   -                                        -
+.ModifyConfig                       method    ss        -                                        -
+.ModifyDevice                       method    sss       -                                        -
+.ModifyRemote                       method    sss       -                                        -
+.Quit                               method    -         -                                        -
+.SelfSign                           method    sa{sv}    s                                        -
+.SetApprovedFirmware                method    as        -                                        -
+.SetBlockedFirmware                 method    as        -                                        -
+.SetFeatureFlags                    method    t         -                                        -
+.SetHints                           method    a{ss}     -                                        -
+.Unlock                             method    s         -                                        -
+.UpdateMetadata                     method    shh       -                                        -
+.Verify                             method    s         -                                        -
+.VerifyUpdate                       method    s         -                                        -
+.DaemonVersion                      property  s         "1.7.9"                                  emits-change
+.HostBkc                            property  s         ""                                       emits-change
+.HostMachineId                      property  s         "f94518e2cbe41f023c2e8f1c33db8133d9ec46… emits-change
+.HostProduct                        property  s         "Victus by HP Gaming Laptop 15-fa0xxx"   emits-change
+.HostSecurityId                     property  s         "HSI:0! (v1.7.9)"                        emits-change
+.Interactive                        property  b         false                                    emits-change
+.Percentage                         property  u         -                                        emits-change
+.Status                             property  u         1                                        emits-change
+.Tainted                            property  b         false                                    emits-change
+.Changed                            signal    -         -                                        -
+.DeviceAdded                        signal    a{sv}     -                                        -
+.DeviceChanged                      signal    a{sv}     -                                        -
+.DeviceRemoved                      signal    a{sv}     -                                        -
+.DeviceRequest                      signal    a{sv}     -                                        -
+
+
+
+Service: org.freedesktop.hostname1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.locale1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.login1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.network1
+
+
+
+Service: org.freedesktop.nm_dispatcher
+
+
+
+Service: org.freedesktop.nm_priv_helper
+
+
+
+Service: org.freedesktop.oom1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.resolve1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.systemd1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.thermald
+
+
+
+Service: org.freedesktop.timedate1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.freedesktop.timesync1
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+
+
+
+Service: org.gnome.DisplayManager
+NAME TYPE SIGNATURE RESULT/VALUE FLAGS
+
+
+
+Service: org.opensuse.CupsPkHelper.Mechanism
+NAME                                TYPE      SIGNATURE RESULT/VALUE FLAGS
+org.freedesktop.DBus.Introspectable interface -         -            -
+.Introspect                         method    -         s            -
+org.freedesktop.DBus.Peer           interface -         -            -
+.GetMachineId                       method    -         s            -
+.Ping                               method    -         -            -
+org.freedesktop.DBus.Properties     interface -         -            -
+.Get                                method    ss        v            -
+.GetAll                             method    s         a{sv}        -
+.Set                                method    ssv       -            -
+.PropertiesChanged                  signal    sa{sv}as  -            -
+org.opensuse.CupsPkHelper.Mechanism interface -         -            -
+.ClassAddPrinter                    method    ss        s            -
+.ClassDelete                        method    s         s            -
+.ClassDeletePrinter                 method    ss        s            -
+.DevicesGet                         method    iiasas    sa{ss}       -
+.FileGet                            method    ss        s            -
+.FilePut                            method    ss        s            -
+.JobCancel                          method    i         s            deprecated
+.JobCancelPurge                     method    ib        s            -
+.JobRestart                         method    i         s            -
+.JobSetHoldUntil                    method    is        s            -
+.PrinterAdd                         method    sssss     s            -
+.PrinterAddOption                   method    ssas      s            -
+.PrinterAddOptionDefault            method    ssas      s            -
+.PrinterAddWithPpdFile              method    sssss     s            -
+.PrinterDelete                      method    s         s            -
+.PrinterDeleteOptionDefault         method    ss        s            -
+.PrinterRename                      method    ss        s            -
+.PrinterSetAcceptJobs               method    sbs       s            -
+.PrinterSetDefault                  method    s         s            -
+.PrinterSetDevice                   method    ss        s            -
+.PrinterSetEnabled                  method    sb        s            -
+.PrinterSetErrorPolicy              method    ss        s            -
+.PrinterSetInfo                     method    ss        s            -
+.PrinterSetJobSheets                method    sss       s            -
+.PrinterSetLocation                 method    ss        s            -
+.PrinterSetOpPolicy                 method    ss        s            -
+.PrinterSetShared                   method    sb        s            -
+.PrinterSetUsersAllowed             method    sas       s            -
+.PrinterSetUsersDenied              method    sas       s            -
+.ServerGetSettings                  method    -         sa{ss}       -
+.ServerSetSettings                  method    a{ss}     s            -
+
+
+

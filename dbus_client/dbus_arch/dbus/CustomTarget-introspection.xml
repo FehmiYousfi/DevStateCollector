@@ -1,0 +1,7 @@
+<node name="/org/freedesktop/CustomTarget">
+  <interface name="org.freedesktop.CustomTarget.Interface">
+    <method name="SayHello">
+      <arg direction="out" type="s" name="message"/>
+    </method>
+  </interface>
+</node>
